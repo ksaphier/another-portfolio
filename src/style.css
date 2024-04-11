@@ -1,8 +1,5 @@
 /* Global variables */
 :root {
-  --primary-color: #0088ff;
-  --secondary-color: #ff0000;
-  --comlpementary-color: #0bffff;
   --primary-black: #1b1b1b;
   --secondary-black: #232323;
   --primary-white: #f3f3f3;
@@ -20,6 +17,9 @@
 
 /* Light theme styles */
 .light-theme {
+  --primary-color: #0088ff;
+  --secondary-color: #ff0000;
+  --comlpementary-color: #00a6ff;
   --background-color: var(--primary-white);
   --secondary-background: var(--secondary-white);
   --text-color: var(--primary-black);
@@ -31,6 +31,9 @@
 
 /* Dark theme styles */
 .dark-theme {
+  --primary-color: #0088ff;
+  --secondary-color: #ff0000;
+  --comlpementary-color: #00a6ff;
   --background-color: var(--primary-black);
   --secondary-background: var(--secondary-black);
   --text-color: var(--primary-white);
@@ -73,12 +76,12 @@ h1 {
 
 .text-gradient {
   background: -webkit-linear-gradient(
-    -10deg,
+    -45deg,
     var(--secondary-color),
     var(--comlpementary-color)
   ); /* For Safari 5.1 to 6.0 */
   background: linear-gradient(
-    -10deg,
+    -45deg,
     var(--secondary-color),
     var(--comlpementary-color)
   ); /* Standard syntax; */

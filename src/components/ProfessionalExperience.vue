@@ -1,5 +1,5 @@
 <template>
-  <h1 class="my-3 text-gradient">Experiencia Profesional</h1>
+  <h1 class="my-3">Experiencia Profesional</h1>
   <div class="card-container">
     <div
       class="card"
@@ -7,7 +7,7 @@
       :key="item.key"
     >
       <div class="card-header">
-        <h2 class="mb-1">{{ item.company }}</h2>
+        <h2 class="mb-1 text-gradient">{{ item.company }}</h2>
       </div>
       <div class="card-body">
         <h3 class="mt-1">{{ item.position }}</h3>
