@@ -1,0 +1,88 @@
+<template>
+  <div class="contact-buttons">
+    <div
+      v-for="item in data.contactInformation.contact"
+      :key="item.key"
+      class="contact-button p-1"
+    >
+      <a v-if="item.url" :href="item.url" target="_blank">
+        <IconComponent :icon="item.icon" size="24" />
+        <span class="mr-1">{{ item.value }}</span>
+      </a>
+      <a v-else @click="copyToClipboard(item.value)">
+        <IconComponent :icon="item.icon" size="24" />
+        <span class="mr-1">{{ item.value }}</span>
+      </a>
+    </div>
+  </div>
+</template>
+<script setup>
+import IconComponent from "./IconComponent.vue";
+import data from "../assets/data.json";
+const copyToClipboard = (value) => {
+  if (navigator.clipboard) {
+    navigator.clipboard
+      .writeText(value)
+      .then(() => {
+        alert(`${value} Copied to clipboard!`);
+      })
+      .catch((err) => {
+        console.error("Could not copy text: ", err);
+      });
+  } else {
+    console.log("Clipboard not available");
+  }
+};
+</script>
+<style scoped>
+.contact-buttons {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact-button {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  border-radius: var(--default-border-radius);
+  background-color: var(--btn-background-color);
+  margin: auto;
+  width: auto;
+  transition: background-color 0.3s;
+  padding: 0;
+}
+.contact-button:hover {
+  background-color: var(--btn-hover-color);
+}
+a {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--btn-text-color);
+  text-decoration: none;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .contact-buttons {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contact-button {
+    min-width: 80%;
+  }
+}
+@media (min-width: 576px) {
+  .contact-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .contact-button {
+    margin: 0;
+  }
+}
+</style>

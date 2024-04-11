@@ -1,0 +1,126 @@
+{
+  "contactInformation": {
+    "name": "Kevin Maximiliano Saphier Stepke",
+    "title": "Ingeniero Civil Informático",
+    "contact": [
+      {
+        "key": "email",
+        "value": "kevin.saphier@gmail.com",
+        "icon": "mail",
+        "url": null
+      },
+      {
+        "key": "phone",
+        "value": "+56 9 9168 3397",
+        "icon": "phone",
+        "url": null
+      },
+      {
+        "key": "location",
+        "value": "Villarrica, Chile",
+        "icon": "location",
+        "url": "https://maps.app.goo.gl/LfZye7yLYnoi24uF6"
+      },
+      {
+        "key": "github",
+        "value": "/ksaphier",
+        "icon": "github",
+        "url": "https://github.com/ksaphier"
+      },
+      {
+        "key": "linkedin",
+        "value": "kevin-saphier",
+        "icon": "linkedin",
+        "url": "https://linkedin.com/in/kevin-saphier"
+      }
+    ]
+  },
+  "professionalProfile": "Desarrollador full stack con más de 4 años de experiencia, titulado en Ingeniería Civil en Computación e Informática en la Universidad Mayor de Temuco en 2019. Enfocado en la superación de desafíos y el desarrollo de soluciones tecnológicas eficientes, comprometido con el crecimiento continuo y el trabajo colaborativo.",
+  "professionalExperience": [
+    {
+      "company": "Apiux Tecnología",
+      "position": "Fullstack",
+      "period": "enero de 2024 - actualidad",
+      "duration": null,
+      "projects": "Contribuyo al desarrollo de una aplicación para el Servicio de Impuestos Internos de Chile, empleando Spring Boot y Vue.js para una solución fullstack. A pesar de utilizar Jira, destacamos por nuestra agilidad, definiendo y desarrollando nuevas funcionalidades en cuestión de horas, logrando integraciones completas de frontend y backend en el mismo día. La base de datos Oracle respalda nuestra gestión de datos, mientras que Git facilita un eficiente control de versiones.",
+      "techStack": [
+        { "name": "Spring Boot", "color": "109, 179, 63" },
+        { "name": "Java", "color": "0, 115, 150" },
+        { "name": "SQL", "color": "68, 121, 161" },
+        { "name": "Vue.js", "color": "63, 178, 127" },
+        { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "Oracle", "color": "255, 140, 0" },
+        { "name": "Git", "color": "243, 79, 41" },
+        { "name": "Jira", "color": "0, 82, 204" }
+      ]
+    },
+    {
+      "company": "The Pegasus Group Company S.A.",
+      "position": "Frontend",
+      "period": "septiembre de 2021 - julio de 2023",
+      "duration": "22 meses",
+      "projects": "En mi rol en el desarrollo de software frontend para el sistema de gestión penal, utilicé Vue.js 3 usando tanto JavaScript como TypeScript para interfaces de usuario avanzadas. Implementé PrimeVue para el diseño UI, Pinia y Vuex para la gestión del estado, y Axios con JWT para conectividad segura. Contribuí al despliegue de aplicaciones en RedHat Openshift Container Platform, utilizando Git para control de versiones y Jira & Confluence para la gestión de proyectos. Integré RedHat SSO (Keycloak) y RedHat Process Automation Manager para reforzar la seguridad y eficiencia del sistema.",
+      "techStack": [
+        { "name": "Vue.js", "color": "63, 178, 127" },
+        { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "TypeScript", "color": "47, 116, 192" },
+        { "name": "Git", "color": "243, 79, 41" },
+        { "name": "Jira", "color": "0, 82, 204" },
+        { "name": "Confluence", "color": "0, 82, 204" },
+        { "name": "RedHat Openshift Container", "color": "238, 0, 0" }
+      ]
+    },
+    {
+      "company": "The Pegasus Group Company S.A.",
+      "position": "Fullstack",
+      "period": "junio de 2021 - septiembre de 2021",
+      "duration": "3 meses",
+      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para Onemi, integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos.",
+      "techStack": [
+        { "name": "Spring Boot", "color": "109, 179, 63" },
+        { "name": "Java", "color": "0, 115, 150" },
+        { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "HTML", "color": "227, 79, 38" },
+        { "name": "SQL", "color": "68, 121, 161" },
+        { "name": "Git", "color": "243, 79, 41" },
+        { "name": "Jira", "color": "0, 82, 204" }
+      ]
+    },
+    {
+      "company": "Aeduc",
+      "position": "Fullstack",
+      "period": "septiembre de 2017 - diciembre de 2017",
+      "duration": "4 meses",
+      "projects": "Realicé mi práctica profesional en el desarrollo de software utilizando CodeIgniter y Bootstrap. Mi trabajo se centró en el diseño y desarrollo de aplicaciones web, con especial atención en el backend y la creación de interfaces de usuario efectivas y responsivas.",
+      "techStack": [
+        { "name": "CodeIgniter", "color": "238, 67, 35" },
+        { "name": "Bootstrap", "color": "86, 61, 124" },
+        { "name": "PHP", "color": "119, 123, 180" },
+        { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "Git", "color": "243, 79, 41" },
+        { "name": "SQL", "color": "68, 121, 161" }
+      ]
+    },
+    {
+      "company": "Universidad Mayor",
+      "position": "Frontend",
+      "period": "agosto de 2016 - diciembre de 2016",
+      "duration": "5 meses",
+      "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa.",
+      "techStack": [
+        { "name": "HTML", "color": "227, 79, 38" },
+        { "name": "CSS", "color": "21, 114, 182" },
+        { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "PHP", "color": "119, 123, 180" }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "name": "Apache Spark 3 & Big Data Essentials in Scala",
+      "date": "01-12-2023",
+      "url": "https://www.udemy.com/course/spark-essentials/",
+      "from": "Udemy"
+    }
+  ]
+}
