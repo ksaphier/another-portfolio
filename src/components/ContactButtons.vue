@@ -45,7 +45,7 @@ const copyToClipboard = (value) => {
   display: flex;
   align-items: center;
   gap: var(--space-1);
-  border-radius: var(--default-border-radius);
+  border-radius: calc(var(--default-border-radius) - var(--space-1));
   background-color: var(--btn-background-color);
   margin: auto;
   width: auto;
@@ -57,7 +57,6 @@ const copyToClipboard = (value) => {
 }
 a {
   display: flex;
-  align-items: center;
   gap: var(--space-1);
   color: var(--btn-text-color);
   text-decoration: none;

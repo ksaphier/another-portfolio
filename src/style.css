@@ -1,14 +1,14 @@
 /* Global variables */
 :root {
   --primary-color: #0088ff;
-  --secondary-color: #47ff9a;
-  --comlpementary-color: #920077;
+  --secondary-color: #ff0000;
+  --comlpementary-color: #0bffff;
   --primary-black: #1b1b1b;
-  --secondary-black: #2f2f2f;
-  --primary-white: #ffffff;
-  --secondary-white: #d0d0d0;
+  --secondary-black: #232323;
+  --primary-white: #f3f3f3;
+  --secondary-white: #dedede;
 
-  --default-border-radius: 12px;
+  --default-border-radius: 16px;
 
   /* Spacing Variables */
   --space-1: 8px;
@@ -70,14 +70,15 @@ h1 {
 .card {
   transition: background-color 0.5s ease;
 }
-.title-gradient {
+
+.text-gradient {
   background: -webkit-linear-gradient(
-    -60deg,
+    -10deg,
     var(--secondary-color),
     var(--comlpementary-color)
   ); /* For Safari 5.1 to 6.0 */
   background: linear-gradient(
-    -60deg,
+    -10deg,
     var(--secondary-color),
     var(--comlpementary-color)
   ); /* Standard syntax; */

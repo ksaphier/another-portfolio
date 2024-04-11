@@ -79,6 +79,7 @@
       "techStack": [
         { "name": "Spring Boot", "color": "109, 179, 63" },
         { "name": "Java", "color": "0, 115, 150" },
+        { "name": "PostgreSQL", "color": "49, 100, 140" },
         { "name": "JavaScript", "color": "239, 216, 29" },
         { "name": "HTML", "color": "227, 79, 38" },
         { "name": "SQL", "color": "68, 121, 161" },

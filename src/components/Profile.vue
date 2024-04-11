@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title-gradient">{{ data.contactInformation.name }}</h1>
+    <h1 class="text-gradient">{{ data.contactInformation.name }}</h1>
     <p>{{ data.professionalProfile }}</p>
   </div>
 </template>
