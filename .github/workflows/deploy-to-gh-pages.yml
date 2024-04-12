@@ -14,13 +14,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "21.5.0"
+          node-version: "20.11.1git a"
 
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Build
-        run: yarn build
+        run: npm run build
 
       - name: Debugging Git Status
         run: git status
