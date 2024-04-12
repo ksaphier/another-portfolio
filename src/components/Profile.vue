@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <h1 class="text-gradient">{{ data.contactInformation.name }}</h1>
+    <h1 class="text-gradient">
+      {{ data.contactInformation.name }} 
+      {{ data.contactInformation.lastname }}
+    </h1>
     <p>{{ data.professionalProfile }}</p>
   </div>
 </template>
@@ -32,7 +35,7 @@ h1 {
     grid-row: 1;
     grid-column: 1 / span 1;
     text-align: left;
-    width: 60%;
+    width: 88%;
     font-size: 3em;
   }
   p {

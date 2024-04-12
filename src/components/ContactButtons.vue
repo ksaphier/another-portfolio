@@ -6,12 +6,14 @@
       class="contact-button p-1"
     >
       <a v-if="item.url" :href="item.url" target="_blank">
-        <IconComponent :icon="item.icon" size="24" />
-        <span class="mr-1">{{ item.value }}</span>
+        <IconComponent :icon="item.icon" size="32" class="pl-2" />
+        <span>{{ item.value }}</span>
+        <IconComponent icon="externallink" size="24" class="pr-2" />
       </a>
       <a v-else @click="copyToClipboard(item.value)">
-        <IconComponent :icon="item.icon" size="24" />
-        <span class="mr-1">{{ item.value }}</span>
+        <IconComponent :icon="item.icon" size="32" class="pl-2" />
+        <span>{{ item.value }}</span>
+        <IconComponent icon="copypaste" size="24" class="pr-2" />
       </a>
     </div>
   </div>
@@ -43,7 +45,7 @@ const copyToClipboard = (value) => {
 }
 .contact-button {
   display: flex;
-  align-items: center;
+  align-items:center;
   gap: var(--space-1);
   border-radius: calc(var(--default-border-radius) - var(--space-1));
   background-color: var(--btn-background-color);
@@ -57,14 +59,20 @@ const copyToClipboard = (value) => {
 }
 a {
   display: flex;
-  gap: var(--space-1);
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
   color: var(--btn-text-color);
   text-decoration: none;
-  padding: 8px;
   width: 100%;
   box-sizing: border-box;
   justify-content: center;
   cursor: pointer;
+}
+a > span {
+  text-align: center;
+  width: 100%;
+  margin: calc(var(--space-2) *0.6);
 }
 @media (max-width: 576px) {
   .contact-buttons {

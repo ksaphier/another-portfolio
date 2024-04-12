@@ -10,7 +10,7 @@ import Profile from "./components/Profile.vue";
     <Menubar />
     <Profile id="profile" class="mx-3 pt-3" />
     <ContactButtons class="my-3" />
-    <ProfessionalExperience />
+    <ProfessionalExperience id="experience" />
   </div>
 </template>
 

@@ -8,13 +8,12 @@
     stroke="currentColor"
     viewBox="0 0 24 24"
   >
-  <path d="M14 2v11h2.51l-4.51 5.01-4.51-5.01h2.51v-11h4zm2-2h-8v11h-5l9 10 9-10h-5v-11zm3 19v3h-14v-3h-2v5h18v-5h-2z"/>
-  </svg>
+  <path d="M17 7h6v16h-16v-6h-6v-16h16v6zm5 1h-14v14h14v-14zm-6-1v-5h-14v14h5v-9h9z"/>  </svg>
 </template>
 
 <script>
 export default {
-  name: "download",
+  name: "copypaste",
   props: {
     size: {
       type: [String, Number],

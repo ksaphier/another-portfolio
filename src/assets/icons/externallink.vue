@@ -8,13 +8,12 @@
     stroke="currentColor"
     viewBox="0 0 24 24"
   >
-  <path d="M14 2v11h2.51l-4.51 5.01-4.51-5.01h2.51v-11h4zm2-2h-8v11h-5l9 10 9-10h-5v-11zm3 19v3h-14v-3h-2v5h18v-5h-2z"/>
-  </svg>
+  <path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>  </svg>
 </template>
 
 <script>
 export default {
-  name: "download",
+  name: "externallink",
   props: {
     size: {
       type: [String, Number],

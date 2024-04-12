@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "download",
+  name: "moon",
   props: {
     size: {
       type: [String, Number],

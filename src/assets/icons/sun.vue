@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "phone",
+  name: "sun",
   props: {
     size: {
       type: [String, Number],

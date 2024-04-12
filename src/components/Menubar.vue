@@ -1,8 +1,11 @@
 <template>
   <div class="menubar">
     <ThemeToggleButton />
-    <a href="#profile" class="toggleThemeButton">
-      <IconComponent icon="arrowup" size="37" />
+    <a href="#profile" class="menubarButton menubarButtonHover">
+      <IconComponent icon="arrowup" size="32" />
+    </a>
+    <a target="_blank" href="https://drive.google.com/file/d/1ofZzom-RcxZLG3tzYpUz-j-PWuxAVCLi/view?usp=sharing" class="menubarButton menubarButtonHover">
+      <IconComponent icon="pdf" size="32" />
     </a>
   </div>
 </template>
@@ -30,7 +33,7 @@ import IconComponent from "./IconComponent.vue";
   border-radius: 0 0 var(--default-border-radius) var(--default-border-radius); /* This creates the circle shape */
 }
 
-.toggleThemeButton {
+.menubarButton {
   display: inline-flex; /* Use flexbox to center content */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
@@ -42,5 +45,9 @@ import IconComponent from "./IconComponent.vue";
   background-color: transparent; /* Transparent background */
   cursor: pointer; /* Change mouse cursor to pointer to indicate it's clickable */
   transition: background-color 0.3s, box-shadow 0.3s, color 0.3s; /* Smooth background color transition */
+}
+
+.menubarButtonHover:hover {
+  color: var(--primary-color)
 }
 </style>

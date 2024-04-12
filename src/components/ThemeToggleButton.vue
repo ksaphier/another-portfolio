@@ -21,7 +21,7 @@ const toggleTheme = () => {
 <template>
   <button
     @click="toggleTheme"
-    class="toggleThemeButton"
+    class="menubarButton"
     @mouseenter="hoverEffect = true"
     @mouseleave="hoverEffect = false"
     :style="
@@ -31,7 +31,7 @@ const toggleTheme = () => {
     "
   >
     <transition name="rotate-icon">
-      <IconComponent :icon="theme === 'light' ? 'moon' : 'sun'" size="48" />
+      <IconComponent :icon="theme === 'light' ? 'moon' : 'sun'" size="32" />
     </transition>
   </button>
 </template>

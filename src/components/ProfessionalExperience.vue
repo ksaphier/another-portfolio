@@ -1,5 +1,7 @@
 <template>
-  <h1 class="my-3">Experiencia Profesional</h1>
+  <h1 class="my-3">
+      Experiencia Profesional
+    </h1>
   <div class="card-container">
     <div
       class="card"
