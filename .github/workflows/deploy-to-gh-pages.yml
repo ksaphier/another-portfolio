@@ -1,20 +1,19 @@
-name: Deploy App to GitHub Pages
-
+name: Build and Deploy to GitHub Pages
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # Set to your default branch
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: "20.11.1git a"
+          node-version: '16' # Set the Node.js version
 
       - name: Install Dependencies
         run: npm install
@@ -22,16 +21,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Debugging Git Status
-        run: git status
-
-      - name: Debugging Git Branches
-        run: git branch
-
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: dist
-          token: ${{ secrets.DEPLOY_TOKEN }}
-          clean: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
