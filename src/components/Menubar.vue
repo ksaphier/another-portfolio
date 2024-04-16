@@ -4,7 +4,11 @@
     <a href="#profile" class="menubarButton menubarButtonHover">
       <IconComponent icon="arrowup" size="32" />
     </a>
-    <a target="_blank" href="https://drive.google.com/file/d/1ofZzom-RcxZLG3tzYpUz-j-PWuxAVCLi/view?usp=sharing" class="menubarButton menubarButtonHover">
+    <a
+      target="_blank"
+      href="https://drive.google.com/file/d/1ofZzom-RcxZLG3tzYpUz-j-PWuxAVCLi/view?usp=sharing"
+      class="menubarButton menubarButtonHover"
+    >
       <IconComponent icon="pdf" size="32" />
     </a>
   </div>
@@ -31,6 +35,7 @@ import IconComponent from "./IconComponent.vue";
   justify-content: center;
   align-items: center;
   border-radius: 0 0 var(--default-border-radius) var(--default-border-radius); /* This creates the circle shape */
+  gap: var(--space-2);
 }
 
 .menubarButton {
@@ -48,6 +53,6 @@ import IconComponent from "./IconComponent.vue";
 }
 
 .menubarButtonHover:hover {
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 </style>
