@@ -18,8 +18,8 @@
 /* Light theme styles */
 .light-theme {
   --primary-color: #0088ff;
-  --secondary-color: #ff0000;
-  --comlpementary-color: #00a6ff;
+  --secondary-color: #ff6600;
+  --comlpementary-color: #00ddff;
   --background-color: var(--primary-white);
   --secondary-background: var(--secondary-white);
   --text-color: var(--primary-black);
@@ -32,8 +32,8 @@
 /* Dark theme styles */
 .dark-theme {
   --primary-color: #0088ff;
-  --secondary-color: #ff0000;
-  --comlpementary-color: #00a6ff;
+  --secondary-color: #00ddff;
+  --comlpementary-color: #ff6600;
   --background-color: var(--primary-black);
   --secondary-background: var(--secondary-black);
   --text-color: var(--primary-white);
@@ -75,6 +75,7 @@ h1 {
 }
 
 .text-gradient {
+  width: fit-content;
   background: -webkit-linear-gradient(
     -45deg,
     var(--secondary-color),

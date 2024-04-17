@@ -2,14 +2,14 @@
   <div class="menubar">
     <ThemeToggleButton />
     <a href="#profile" class="menubarButton menubarButtonHover">
-      <IconComponent icon="arrowup" size="32" />
+      <IconComponent icon="arrowup" size="39" />
     </a>
     <a
       target="_blank"
       href="https://drive.google.com/file/d/1ofZzom-RcxZLG3tzYpUz-j-PWuxAVCLi/view?usp=sharing"
       class="menubarButton menubarButtonHover"
     >
-      <IconComponent icon="pdf" size="32" />
+      <IconComponent icon="pdf" size="26" class="circle-icon" />
     </a>
   </div>
 </template>
@@ -28,8 +28,8 @@ import IconComponent from "./IconComponent.vue";
   width: fit-content;
   background-color: var(--btn-background-color);
   z-index: 1000;
-  padding: 8px;
-  padding-top: 0;
+  padding: calc(var(--space-1) * 1.5);
+  padding-top: var(--space-1);
   margin: auto;
   display: flex;
   justify-content: center;
@@ -54,5 +54,17 @@ import IconComponent from "./IconComponent.vue";
 
 .menubarButtonHover:hover {
   color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.circle-icon {
+  border: solid 2px; /* Add a border */
+  border-radius: 50%; /* This creates the circle shape */
+  padding: 2px; /* Add some padding */
+  font-size: small;
+  font-weight: bold;
 }
 </style>

@@ -45,7 +45,7 @@ const copyToClipboard = (value) => {
 }
 .contact-button {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: var(--space-1);
   border-radius: calc(var(--default-border-radius) - var(--space-1));
   background-color: var(--btn-background-color);
@@ -72,7 +72,7 @@ a {
 a > span {
   text-align: center;
   width: 100%;
-  margin: calc(var(--space-2) *0.6);
+  margin: calc(var(--space-2) * 0.6);
 }
 @media (max-width: 576px) {
   .contact-buttons {
@@ -80,7 +80,7 @@ a > span {
     justify-content: flex-start;
   }
   .contact-button {
-    min-width: 80%;
+    width: 90%;
   }
 }
 @media (min-width: 576px) {
