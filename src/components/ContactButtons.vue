@@ -73,6 +73,7 @@ a > span {
   text-align: center;
   width: 100%;
   margin: calc(var(--space-2) * 0.6);
+  font-weight: 400;
 }
 @media (max-width: 576px) {
   .contact-buttons {

@@ -11,7 +11,7 @@
       </div>
       <div class="card-body">
         <h3 class="mt-1">{{ item.position }}</h3>
-        <p>{{ item.projects }}</p>
+        <p v-html="item.projects"></p>
         <p class="periodo">
           {{
             item.duration ? `${item.duration} - ${item.period}` : item.period
@@ -49,23 +49,16 @@ h1 {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--standar-gray);
   border-radius: var(--default-border-radius);
   background-color: var(--secondary-background);
-  box-shadow: inset 0 0 0 40px
-    linear-gradient(
-      to right,
-      var(--secondary-color),
-      var(--complementary-color)
-    );
-  overflow: hidden; /* Ensure the box-shadow respects the border-radius */
 }
 .card > * {
   padding-left: var(--space-3);
   padding-right: var(--space-3);
 }
 .card-footer {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--standar-gray);
   border-radius: calc(var(--default-border-radius) - var(--space-1));
   margin: var(--space-1);
   margin-top: auto;
@@ -80,6 +73,7 @@ h1 {
   padding: calc(var(--space-1) / 2);
   padding-left: calc(var(--space-2));
   padding-right: calc(var(--space-2));
+  font-weight: 400;
 }
 @media (min-width: 576px) {
   .card-container {

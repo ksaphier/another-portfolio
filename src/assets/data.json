@@ -36,20 +36,21 @@
       }
     ]
   },
-  "professionalProfile": "Desarrollador Fullstack con más de 4 años de experiencia, Ingeniero Civil en Computación e Informática, titualdo en 2019 en la Universidad Mayor de Temuco, Chile. Enfocado en la superación de desafíos y el desarrollo de soluciones tecnológicas eficientes, comprometido con el crecimiento continuo y el trabajo colaborativo.",
+  "professionalProfile": "Desarrollador Fullstack con más de 4 años de experiencia, <span class=\"special-text\">Ingeniero Civil en Computación e Informática</span>, titualdo en 2019 en la Universidad Mayor de Temuco, Chile. Enfocado en la superación de desafíos y el desarrollo de soluciones tecnológicas eficientes, comprometido con el crecimiento continuo y el trabajo colaborativo.",
   "professionalExperience": [
     {
       "company": "Apiux Tecnología",
       "position": "Fullstack",
       "period": "enero de 2024 - actualidad",
       "duration": null,
-      "projects": "Contribuyo al desarrollo de una aplicación para el Servicio de Impuestos Internos de Chile, empleando Spring Boot y Vue.js para una solución fullstack. A pesar de utilizar Jira, destacamos por nuestra agilidad, definiendo y desarrollando nuevas funcionalidades en cuestión de horas, logrando integraciones completas de frontend y backend en el mismo día. La base de datos Oracle respalda nuestra gestión de datos, mientras que Git facilita un eficiente control de versiones.",
+      "projects": "Contribuyo al desarrollo de una aplicación para el <span class=\"special-text\">Servicio de Impuestos Internos de Chile</span>, empleando Spring Boot y Vue.js para una solución fullstack. Como equipo destacamos por nuestra agilidad, definiendo y desarrollando nuevas funcionalidades en cuestión de horas, logrando integraciones completas de frontend y backend en el mismo día. La base de datos Oracle respalda nuestra gestión de datos, mientras que Git facilita un eficiente control de versiones.",
       "techStack": [
         { "name": "Spring Boot", "color": "109, 179, 63" },
         { "name": "Java", "color": "0, 115, 150" },
         { "name": "SQL", "color": "68, 121, 161" },
         { "name": "Vue.js", "color": "63, 178, 127" },
         { "name": "JavaScript", "color": "239, 216, 29" },
+        { "name": "CSS", "color": "21, 114, 182" },
         { "name": "Oracle", "color": "255, 140, 0" },
         { "name": "Git", "color": "243, 79, 41" },
         { "name": "Jira", "color": "0, 82, 204" }
@@ -60,7 +61,7 @@
       "position": "Frontend",
       "period": "septiembre de 2021 - julio de 2023",
       "duration": "22 meses",
-      "projects": "En mi rol en el desarrollo de software frontend para el sistema de gestión penal, utilicé Vue.js 3 usando tanto JavaScript como TypeScript para interfaces de usuario avanzadas. Implementé PrimeVue para el diseño UI, Pinia y Vuex para la gestión del estado, y Axios con JWT para conectividad segura. Contribuí al despliegue de aplicaciones en RedHat Openshift Container Platform, utilizando Git para control de versiones y Jira & Confluence para la gestión de proyectos. Integré RedHat SSO (Keycloak) y RedHat Process Automation Manager para reforzar la seguridad y eficiencia del sistema.",
+      "projects": "En mi rol en el desarrollo de software frontend para el sistema de gestión penal de la <span class=\"special-text\">Fiscalia de Chile</span>, utilicé Vue.js 3 usando tanto JavaScript como TypeScript para interfaces de usuario avanzadas. Implementé PrimeVue para el diseño UI, Pinia y Vuex para la gestión del estado, y Axios con JWT para conectividad segura. Contribuí al despliegue de aplicaciones en RedHat Openshift Container Platform, utilizando Git para control de versiones y Jira & Confluence para la gestión de proyectos. Integré RedHat SSO (Keycloak) y RedHat Process Automation Manager para reforzar la seguridad y eficiencia del sistema.",
       "techStack": [
         { "name": "Vue.js", "color": "63, 178, 127" },
         { "name": "JavaScript", "color": "239, 216, 29" },
@@ -76,7 +77,7 @@
       "position": "Fullstack",
       "period": "junio de 2021 - septiembre de 2021",
       "duration": "3 meses",
-      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para Onemi, integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos.",
+      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para <span class=\"special-text\">Oficina Nacional de Emergencia del Ministerio del Interior de Chile</span>, integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos.",
       "techStack": [
         { "name": "Spring Boot", "color": "109, 179, 63" },
         { "name": "Java", "color": "0, 115, 150" },
@@ -108,7 +109,7 @@
       "position": "Frontend",
       "period": "agosto de 2016 - diciembre de 2016",
       "duration": "5 meses",
-      "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa.",
+      "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses de la <span class=\"special-text\">Universidad Mayor, sede Temuco</span>, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa.",
       "techStack": [
         { "name": "HTML", "color": "227, 79, 38" },
         { "name": "CSS", "color": "21, 114, 182" },

@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <h1 class="text-gradient">
-      {{ data.contactInformation.name }} 
+    <h1 class="shadow3d">
+      {{ data.contactInformation.name }}
       {{ data.contactInformation.lastname }}
     </h1>
-    <p>{{ data.professionalProfile }}</p>
+    <p v-html="data.professionalProfile"></p>
   </div>
 </template>
 <script setup>
