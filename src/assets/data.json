@@ -77,7 +77,7 @@
       "position": "Fullstack",
       "period": "junio de 2021 - septiembre de 2021",
       "duration": "3 meses",
-      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para <span class=\"special-text\">Oficina Nacional de Emergencia del Ministerio del Interior de Chile</span>, integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos.",
+      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para <span class=\"special-text\">ONEMI</span> (Oficina Nacional de Emergencia del Ministerio del Interior de Chile), integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos.",
       "techStack": [
         { "name": "Spring Boot", "color": "109, 179, 63" },
         { "name": "Java", "color": "0, 115, 150" },

@@ -1,13 +1,13 @@
 /* Global variables */
 :root {
-  --primary-black: #1b1b1b;
-  --secondary-black: #232323;
-  --primary-white: #f3f3f3;
-  --secondary-white: #dedede;
-  --light-gray: #c0c0c0;
-  --dark-gray: #464646;
+  --primary-black: rgb(27, 27, 27);
+  --secondary-black: rgb(35, 35, 35);
+  --primary-white: rgb(243, 243, 243);
+  --secondary-white: rgb(222, 222, 222);
+  --light-gray: rgb(192, 192, 192);
+  --dark-gray: rgb(70, 70, 70);
 
-  --default-border-radius: 16px;
+  --default-border-radius: 12px;
 
   /* Spacing Variables */
   --space-1: 8px;
@@ -19,9 +19,9 @@
 
 /* Light theme styles */
 .light-theme {
-  --primary-color: #0088ff;
-  --secondary-color: #0095ff;
-  --comlpementary-color: #ff0000;
+  --primary-color: rgb(91, 151, 255);
+  --secondary-color: rgb(255, 67, 67);
+  --comlpementary-color: rgb(91, 151, 255);
   --background-color: var(--primary-white);
   --secondary-background: var(--secondary-white);
   --text-color: var(--primary-black);
@@ -34,9 +34,9 @@
 
 /* Dark theme styles */
 .dark-theme {
-  --primary-color: #0088ff;
-  --secondary-color: #0095ff;
-  --comlpementary-color: #ff0000;
+  --primary-color: rgb(255, 67, 67);
+  --secondary-color: rgb(91, 151, 255);
+  --comlpementary-color: rgb(255, 67, 67);
   --background-color: var(--primary-black);
   --secondary-background: var(--secondary-black);
   --text-color: var(--primary-white);
@@ -97,13 +97,20 @@ h1 {
 
 .shadow3d {
   text-shadow: calc(var(--space-1) * 0.4) calc(var(--space-1) * 0.4) 0px
-      var(--secondary-color),
+      rgb(255, 95, 95),
     calc(var(--space-1) * -0.4) calc(var(--space-1) * -0.4) 0px
-      var(--comlpementary-color);
+      rgb(107, 151, 255);
   -webkit-text-fill-color: var(
     --secondary-text
   ); /* Will override color (regardless of order) */
   -webkit-text-stroke: 0.1rem var(--secondary-background);
+}
+
+.text-stroke {
+  -webkit-text-fill-color: var(
+    --secondary-background
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke: 0.1rem var(--secondary-text);
 }
 
 .special-text {

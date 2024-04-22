@@ -1,9 +1,13 @@
 <template>
   <div class="container">
-    <h1 class="shadow3d">
-      {{ data.contactInformation.name }}
-      {{ data.contactInformation.lastname }}
-    </h1>
+    <div>
+      <h1 class="shadow3d">
+        {{ data.contactInformation.name }}
+      </h1>
+      <h1 class="shadow3d" style="margin-top: 0">
+        {{ data.contactInformation.lastname }}
+      </h1>
+    </div>
     <p v-html="data.professionalProfile"></p>
   </div>
 </template>

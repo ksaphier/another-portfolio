@@ -54,9 +54,6 @@ const copyToClipboard = (value) => {
   transition: background-color 0.3s;
   padding: 0;
 }
-.contact-button:hover {
-  background-color: var(--btn-hover-color);
-}
 a {
   display: flex;
   justify-content: space-between;
@@ -68,6 +65,9 @@ a {
   box-sizing: border-box;
   justify-content: center;
   cursor: pointer;
+}
+a:hover {
+  color: var(--primary-color);
 }
 a > span {
   text-align: center;
