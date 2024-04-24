@@ -6,7 +6,7 @@
     </a>
     <a
       target="_blank"
-      href="https://drive.google.com/file/d/1ofZzom-RcxZLG3tzYpUz-j-PWuxAVCLi/view?usp=sharing"
+      href="https://drive.google.com/file/d/1E5u4cyJDjupNyjSImjSNr7RyoH1e4usW/view?usp=drive_link"
       class="menubarButton menubarButtonHover"
     >
       <IconComponent icon="pdf" size="26" class="circle-icon" />
