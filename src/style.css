@@ -89,7 +89,7 @@ h1 {
     -45deg,
     var(--secondary-color) 40%,
     var(--comlpementary-color)
-  ); /* Standard syntax; */
+  ); 
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
   color: transparent; /* Make the text itself transparent so the gradient shows through */

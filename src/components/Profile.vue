@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="shadow3d">
+      <h1 class="">
         {{ data.contactInformation.name }}
       </h1>
-      <h1 class="shadow3d" style="margin-top: 0">
+      <h1 class="" style="margin-top: 0">
         {{ data.contactInformation.lastname }}
       </h1>
     </div>
